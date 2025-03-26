@@ -1,0 +1,38 @@
+.video-details-page {
+    padding: 1rem;
+    max-width: 1400px;
+    margin-left: 240px;
+    margin-top: 120px;
+    box-sizing: border-box;
+  }
+  .search-results-page {
+    padding: 0 1rem; /* Fixed padding syntax */
+    max-width: 1400px;
+    margin-left: 240px;
+    margin-top: 120px;
+    box-sizing: border-box;
+  }
+  .video-player {
+    margin-bottom: 1rem;
+  }
+  
+  .video-info h1 {
+    margin: 0.5rem 0;
+  }
+  
+  .video-info p {
+    color: #666;
+  }
+  
+  .video-stats {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .comments-section {
+    margin-top: 2rem;
+  }
+  
+  .comments-section h2 {
+    margin-bottom: 1rem;
+  }

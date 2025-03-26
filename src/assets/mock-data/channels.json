@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "CodeWithHarry",
+      "profilePicture": "https://via.placeholder.com/50x50"
+    },
+    {
+      "id": 2,
+      "name": "Traversy Media",
+      "profilePicture": "https://via.placeholder.com/50x50"
+    },
+    {
+      "id": 3,
+      "name": "Web Dev Simplified",
+      "profilePicture": "https://via.placeholder.com/50x50"
+    },
+    {
+      "id": 4,
+      "name": "Academind",
+      "profilePicture": "https://via.placeholder.com/50x50"
+    }
+  ]

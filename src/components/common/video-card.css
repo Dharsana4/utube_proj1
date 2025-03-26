@@ -1,0 +1,92 @@
+/* For the entire home-page including the video grid */
+.home-page {
+  height: calc(100vh - 120px); /* Subtract header (60px) + categories (60px) */
+   
+  margin-left: 250px; /* Adjust for sidebar width */
+  margin-top: 120px; /* Adjust to start below header and categories */
+  box-sizing: border-box;
+  padding: 0.5rem 1rem; /* Reduce padding to minimize space */
+}
+/* Header Section - Fix in place */
+.header {
+  position: fixed;
+  top: 0;
+  left:2px; /* Adjust for sidebar width */
+  height: 60px; /* Assuming header height */
+  width: calc(100% - 17px); /* Adjust width to account for sidebar */
+  background-color: white;
+  
+  display: flex;
+  
+   /* Optional shadow */
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.sidebar{
+position:fixed
+}
+/* Categories section */
+.categories {
+  position: fixed;
+  top: 60px; /* Right below the header */
+  left: .9px; /* Adjust for sidebar width */
+  height: 60px;
+  width: calc(100% - 200px); /* Adjust width to account for sidebar */
+  margin-bottom: 0; /* Ensure no extra margin below */
+  padding-bottom: 0.2rem; /* Slight padding for better appearance */
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+   /* Slight shadow for separation */
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.5rem; /* Adjust for tighter spacing */
+  row-gap: 0.8rem; /* Reduce vertical gap */
+  box-sizing: border-box;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 8px 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.video-details {
+  padding: 0.4rem; /* Adjust padding for better fit */
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1rem;
+  margin: 0.4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.channel,
+.views {
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 45px;
+}
+
+.title-icon {
+  width: 38px;
+  margin-right: 8px;
+  vertical-align: middle;
+}

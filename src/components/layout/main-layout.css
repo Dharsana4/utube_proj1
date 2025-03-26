@@ -1,0 +1,28 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex: 1;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Light and Dark Theme Variables */
+  .main-layout.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  .main-layout.dark {
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+  }

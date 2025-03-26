@@ -1,0 +1,24 @@
+:root {
+    /* Light Theme */
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #ff0000;
+    --secondary-color: #f1f1f1;
+    --border-color: #e0e0e0;
+  
+    /* Dark Theme */
+    --dark-background-color: #1a1a1a;
+    --dark-text-color: #ffffff;
+    --dark-primary-color: #ff4d4d;
+    --dark-secondary-color: #333333;
+    --dark-border-color: #444444;
+  }
+  
+  /* Apply Dark Theme Variables */
+  [data-theme="dark"] {
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+    --primary-color: var(--dark-primary-color);
+    --secondary-color: var(--dark-secondary-color);
+    --border-color: var(--dark-border-color);
+  }

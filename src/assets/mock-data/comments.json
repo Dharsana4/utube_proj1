@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "videoId": 1,
+      "user": "John Doe",
+      "comment": "Great video! Very helpful."
+    },
+    {
+      "id": 2,
+      "videoId": 1,
+      "user": "Jane Smith",
+      "comment": "Thanks for the tutorial!"
+    },
+    {
+      "id": 3,
+      "videoId": 2,
+      "user": "Alice Johnson",
+      "comment": "This was an amazing explanation."
+    },
+    {
+      "id": 4,
+      "videoId": 2,
+      "user": "Bob Brown",
+      "comment": "I learned a lot from this video."
+    },
+    {
+      "id": 5,
+      "videoId": 3,
+      "user": "Charlie Davis",
+      "comment": "CSS Grid is so powerful!"
+    },
+    {
+      "id": 6,
+      "videoId": 4,
+      "user": "Eve White",
+      "comment": "Node.js is awesome!"
+    }
+  ]

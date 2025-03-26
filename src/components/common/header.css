@@ -1,0 +1,79 @@
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+  
+}
+
+.icon {
+  width: 54px;
+  height: 54px;
+  
+}
+.icon1{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.icon2{
+  width: 100px;
+  height: 40px;
+  
+  cursor: pointer;
+}
+.logo-container {
+  position: relative;
+  display: inline-block;
+}
+.youtube-logo {
+  height: 25px;
+}
+
+.country-code {
+  position: absolute;
+  top: -6px;
+  right: -18px;
+  
+  font-size: 10px;
+  
+  padding: 1px 3px;
+  
+  
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 15px;
+}
+
+.notification-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 50%;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 15px;
+}

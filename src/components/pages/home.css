@@ -1,0 +1,27 @@
+.home-page {
+  padding: 0 1rem; /* Fixed padding syntax */
+  max-width: 1400px;
+  margin-left: 240px;
+  box-sizing: border-box;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 8fr); /* 3 equal columns */
+  column-gap: 1rem; /* Reduced horizontal gap for tighter layout */
+  row-gap: 1rem; /* Small vertical gap */
+}
+
+.video-card {
+  width: 100%; /* Fill the entire grid cell */
+  margin: 0; /* Ensure no unintended margins */
+  padding: 0; /* Ensure no unintended padding */
+  box-sizing: border-box; /* Include padding/border in width calculation */
+}
+
+.video-card .thumbnail {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional rounded corners */
+}
