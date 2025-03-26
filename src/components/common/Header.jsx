@@ -20,7 +20,7 @@ const Header = () => {
     <header className="header">
       {/* Left Section: Logo with Superscript Country Code */}
       <div className="header-left">
-        <img src="side_close.jpg" alt="Menu" className="icon1" />
+        <img src="images/side_close.jpg" alt="Menu" className="icon1" />
         <div className="logo-container">
           <Link to="/" className="logo">
             <img 
@@ -40,12 +40,12 @@ const Header = () => {
 
       {/* Right Section: Create, Notifications, Profile */}
       <div className="header-right">
-        <img src="create.jpg" alt="Create" className="icon2" />
+        <img src="images/create.jpg" alt="Create" className="icon2" />
         <div className="notification">
-          <img src="noti_icon.jpg" alt="Notifications" className="icon" />
+          <img src="images/noti_icon.jpg" alt="Notifications" className="icon" />
           <span className="notification-count">9+</span>
         </div>
-        <img src="acc_icon.jpg" alt="Profile" onClick={handleImageClick} className="profile-icon" />
+        <img src="images/acc_icon.jpg" alt="Profile" onClick={handleImageClick} className="profile-icon" />
       </div>
       <ThemeModal isOpen={isModalOpen} onClose={closeModal} />
     </header>

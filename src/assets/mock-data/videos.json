@@ -2,8 +2,8 @@
     {
       "id": 1,
       "title": "Introduction to React",
-      "titleImage": "mosh1.jpg",
-      "thumbnail": "thumb2.jpg",
+      "titleImage": "images/mosh1.jpg",
+      "thumbnail": "images/thumb2.jpg",
       "channel": "Programming with Mosh",
       "views": "1M",
       "postedTime": "1 day ago",
@@ -14,7 +14,7 @@
     {
       "id": 3,
       "title": "CSS Grid Layout Tutorial",
-      "thumbnail": "thumb3.jpg",
+      "thumbnail": "images/thumb3.jpg",
       "channel": "Web Dev Simplified",
       "views": "750K",
       "postedTime": "5 days ago",
@@ -24,8 +24,8 @@
     {
       "id": 2,
       "title": "JISOO - 'earthquake' DANCE PRACTICE BEHIND THE SCENES",
-      "titleImage": "jisoo.jpg",
-      "thumbnail": "thumb1.jpg",
+      "titleImage": "images/jisoo.jpg",
+      "thumbnail": "images/thumb1.jpg",
       "channel": "JISOO",
       "views": "500K",
       "postedTime": "3 days ago",
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "title": "Node.js Crash Course",
-      "thumbnail": "thumb4.jpg",
+      "thumbnail": "images/thumb4.jpg",
       "channel": "Academind",
       "views": "2M",
       "postedTime": "1 week ago",
@@ -45,7 +45,7 @@
     {
       "id": 5,
       "title": "Statistics - A Full University Course on Data Science Basics",
-      "thumbnail": "thumb5.jpg",
+      "thumbnail": "images/thumb5.jpg",
       "channel": "FreeCodeCamp.Org",
       "views": "2M",
       "postedTime": "1 week ago",
@@ -55,7 +55,7 @@
     {
       "id": 6,
       "title": "Virat Kohli 94* (50) vs West Indies 1st T20I 2019 Hyderabad (Ball By Ball)",
-      "thumbnail": "thumb_virat1.jpg",
+      "thumbnail": "images/thumb_virat1.jpg",
       "channel": "Virat Kohli TV",
       "views": "10M",
       "postedTime": "1 year ago",
@@ -65,7 +65,7 @@
     {
       "id": 7,
       "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
-      "thumbnail": "thumb_dsa.jpg",
+      "thumbnail": "images/thumb_dsa.jpg",
       "channel": "FreeCodeCamp.Org",
       "views": "6.7M",
       "postedTime": "5 years ago",
@@ -75,7 +75,7 @@
     {
       "id": 8,
       "title": "3 tips on how to study effectively",
-      "thumbnail": "thumb_study.jpg",
+      "thumbnail": "images/thumb_study.jpg",
       "channel": "TED-Ed",
       "views": "6.1M",
       "postedTime": "1 year ago",
@@ -85,7 +85,7 @@
     {
       "id": 9,
       "title": "The Universe Of Anirudh Ravichander | Amazon Music",
-      "thumbnail": "thumb_ani.jpg",
+      "thumbnail": "images/thumb_ani.jpg",
       "channel": "Amazon Music IN",
       "views": "765K",
       "postedTime": "5 months ago",
@@ -95,7 +95,7 @@
     {
       "id": 10,
       "title": "Vidya Vox - Be Free (Pallivaalu Bhadravattakam) ft. Vandana Iyer",
-      "thumbnail": "thumb_pop.jpg",
+      "thumbnail": "images/thumb_pop.jpg",
       "channel": "Vidya Vox",
       "views": "444M",
       "postedTime": "8 years ago",
@@ -105,7 +105,7 @@
     {
       "id": 11,
       "title": "SAVING Franklin's House from ZOMBIES GTA 5 | Shinchan Zombie Attack | Lovely Gaming",
-      "thumbnail": "thumb_game.jpg",
+      "thumbnail": "images/thumb_game.jpg",
       "channel": "Lovely Gaming",
       "views": "1.58M",
       "postedTime": "13 days ago",
@@ -115,7 +115,7 @@
     {
       "id": 12,
       "title": "How to Think Clearly | The Philosophy of Marcus Aurelius",
-      "thumbnail": "thumb_thouhts.jpg",
+      "thumbnail": "images/thumb_thouhts.jpg",
       "channel": "Freedom In Thought",
       "views": "1.58M",
       "postedTime": "3 months ago",
@@ -125,7 +125,7 @@
     {
       "id": 13,
       "title": "Hailey Bieber's Date Night Skin Care & Makeup Routine | Beauty Secrets | Vogue",
-      "thumbnail": "thumb_skin.jpg",
+      "thumbnail": "images/thumb_skin.jpg",
       "channel": "Vogue",
       "views": "11.8M",
       "postedTime": "3 years ago",

@@ -23,9 +23,9 @@ const SearchBar = () => {
         className="search-input"
       />
       <button type="submit" className="search-button">
-        <img src="/search_icon.jpg" alt="Search" className="search-icon" />
+        <img src="images/search_icon.jpg" alt="Search" className="search-icon" />
       </button>
-      <img src="sound_li.jpg" alt="Mic" className="mic-icon" />
+      <img src="images/sound_li.jpg" alt="Mic" className="mic-icon" />
     </form>
   );
 };
