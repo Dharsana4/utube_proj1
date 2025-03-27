@@ -16,7 +16,7 @@ const Categories = () => {
     setActiveCategory(category);
 
     if (category === "All") {
-      navigate("/");  // Go to homepage if "All" is clicked
+      navigate("/");  
     } else {
       navigate(`/search?q=${category}`);
     }

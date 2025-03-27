@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./sidebar.css";
 
-// Menu items data
+
 const menuItems = [
   { icon: "images/home_icon.jpg", label: "Home", link: "/" },
   { icon: "images/shorts_icon.jpg", label: "Shorts", link: "/shorts" },
@@ -54,14 +54,14 @@ const Sidebar = () => {
 
   const handleItemClick = (label, link) => {
     setActiveItem(label);
-    // Add console log for debugging
+    
     console.log(`Navigating to: ${link}`);
     navigate(link);
     if (label === "Home") {
-      // Use navigate for Home item only
+      
       navigate("/");
     } else {
-      navigate(path); // For other items, use the path from routes
+      navigate(path); 
     }
   };
 
