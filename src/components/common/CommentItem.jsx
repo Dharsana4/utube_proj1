@@ -5,7 +5,7 @@ const CommentItem = ({ comment }) => {
   return (
     <div className="comment-item">
       <img
-        src="https://via.placeholder.com/40x40"
+        src="/images/thumbnail1.jpg" 
         alt="User"
         className="user-avatar"
       />
