@@ -10,7 +10,5 @@ This project is a **YouTube Clone** built using React.js and Vite. It provides v
 - **Routing:** React Router  
 - **Deployment:** Netlify  
 
----
-
-## Project Structure
+YouTube live link:
 
