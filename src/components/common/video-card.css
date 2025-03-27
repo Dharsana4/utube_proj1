@@ -67,9 +67,13 @@ position:fixed
 }
 
 .video-details {
-  padding: 0.4rem; /* Adjust padding for better fit */
+  padding: 0.4rem; 
   box-sizing: border-box;
+  margin-left: 1px; 
 }
+
+
+
 
 .title {
   font-size: 1rem;
@@ -89,4 +93,10 @@ position:fixed
   width: 38px;
   margin-right: 8px;
   vertical-align: middle;
+}
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px; 
 }

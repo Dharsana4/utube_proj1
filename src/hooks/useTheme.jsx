@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    // Apply the theme to the root HTML element
+    
     document.documentElement.className = theme;
   }, [theme]);
 

@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => {
   const { theme } = useTheme();
   const location = useLocation();
 
-  // Hide sidebar if on VideoDetailsPage
+  
   const isVideoPage = location.pathname.startsWith("/video/");
   return (
     <div className={`main-layout ${theme}`}>

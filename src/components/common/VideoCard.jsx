@@ -13,14 +13,16 @@ const VideoCard = ({ video }) => {
     <div className="video-card" onClick={handleClick}>
       <img src={video.thumbnail} alt={video.title} className="thumbnail" />
       <div className="video-details">
-        {video.titleImage && (
-          <img 
-            src={video.titleImage} 
-            alt="Title Icon" 
-            className="title-icon"
-          />
-        )}
-        <h3 className="title">{video.title}</h3>
+        <div className="title-wrapper">
+          {video.titleImage && (
+            <img 
+              src={video.titleImage} 
+              alt="Title Icon" 
+              className="title-icon"
+            />
+          )}
+          <h3 className="title">{video.title}</h3>
+        </div>
         <p className="channel">{video.channel}</p>
         <p className="views">
           {video.views} views • {video.postedTime}

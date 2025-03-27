@@ -1,11 +1,11 @@
 import React, { createContext, useState, useEffect } from "react";
-import videosData from "../assets/mock-data/videos.json"; // Import JSON directly
+import videosData from "../assets/mock-data/videos.json"; 
 
 export const VideoContext = createContext();
 
 export const VideoProvider = ({ children }) => {
   const [videos, setVideos] = useState([]);
-  const [loading, setLoading] = useState(false); // No loading state needed
+  const [loading, setLoading] = useState(false); 
 
   useEffect(() => {
     

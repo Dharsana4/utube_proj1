@@ -4,6 +4,7 @@ import SkeletonLoader from "../common/SkeletonLoader";
 import videosData from "../../assets/mock-data/videos.json";
 import "./search-results.css";
 import { useTheme } from "../../contexts/ThemeContext";
+
 const SearchResultsPage = () => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -26,19 +27,25 @@ const SearchResultsPage = () => {
           } else {
             categoryMatch = video.category?.toLowerCase() === lowerQuery;
           }
-
           return titleMatch || categoryMatch;
         }
         return true;
       });
 
-      setResults(filteredResults);
+      
+      const updatedResults = filteredResults.map((video) => ({
+        ...video,
+        views:
+          parseInt(localStorage.getItem(`views_${video.id}`)) || video.views,
+      }));
+
+      setResults(updatedResults);
       setLoading(false);
     }, 1000);
   }, [query]);
 
   return (
-    <div className={`search-results-page `}>
+    <div className={`search-results-page`}>
       <div className="results-grid">
         {loading ? (
           Array(6)
@@ -53,18 +60,22 @@ const SearchResultsPage = () => {
                 <img src={video.thumbnail} alt={video.title} />
               </Link>
               <div className="video-details">
-                <h4>{video.title}</h4>
+              <p className="channel">{video.title}</p>
+                <div className="title-container">
+                  
+                  {video.titleImage && (
+                    <img
+                      src={video.titleImage}
+                      alt="Title Icon"
+                      className="titlee"
+                    />
+                  )
+                  }<h4>{video.channel}</h4>
+                </div>
+
                 <p>
                   {video.views} views • {video.postedTime}
                 </p>
-                {video.titleImage && (
-                  <img
-                    src={video.titleImage}
-                    alt="Title Icon"
-                    className="channel"
-                  />
-                )}
-                <p className="channel">{video.channel}</p>
                 <p>{video.description}</p>
               </div>
             </div>

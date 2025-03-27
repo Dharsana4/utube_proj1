@@ -12,7 +12,12 @@ const HomePage = () => {
   useEffect(() => {
     fetchVideos()
       .then((data) => {
-        setVideos(data);
+        
+        const updatedVideos = data.map((video) => ({
+          ...video,
+          views: parseInt(localStorage.getItem(`views_${video.id}`)) || video.views,
+        }));
+        setVideos(updatedVideos);
         setLoading(false);
       })
       .catch((error) => {
@@ -23,7 +28,6 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
-      
       <div className="video-grid">
         {loading
           ? Array.from({ length: 6 }).map((_, index) => (

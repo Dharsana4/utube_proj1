@@ -9,7 +9,7 @@ const ThemeModal = ({ isOpen, onClose }) => {
 
   const handleThemeChange = () => {
     toggleTheme();
-    onClose(); // Close modal after changing theme
+    onClose(); 
   };
 
   return (

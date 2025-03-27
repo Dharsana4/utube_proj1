@@ -2,24 +2,35 @@
     {
       "id": 1,
       "title": "Introduction to React",
-      "titleImage": "images/mosh1.jpg",
+      "titleImage": "/images/mosh1.jpg",
       "thumbnail": "/images/thumb2.jpg",
       "channel": "Programming with Mosh",
-      "views": "1M",
+      "views": "100",
       "postedTime": "1 day ago",
       "description": "Learn the basics of React in this tutorial.",
-      "category":"Web Development"
+      "category":"Web Development",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
 
     {
       "id": 3,
       "title": "CSS Grid Layout Tutorial",
+      "titleImage": "/images/mosh1.jpg",
       "thumbnail": "/images/thumb3.jpg",
       "channel": "Web Dev Simplified",
-      "views": "750K",
+      "views": "100",
       "postedTime": "5 days ago",
       "description": "Learn how to use CSS Grid for modern layouts.",
-      "category":"Web Development"
+      "category":"Web Development",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 2,
@@ -27,109 +38,174 @@
       "titleImage": "/images/jisoo.jpg",
       "thumbnail": "/images/thumb1.jpg",
       "channel": "JISOO",
-      "views": "500K",
+      "views": "100",
       "postedTime": "3 days ago",
       "description": "JISOO MINI ALBUM [AMORTAGE]",
-      "category":"Music"
+      "category":"Music",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 4,
       "title": "Node.js Crash Course",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb4.jpg",
       "channel": "Academind",
-      "views": "2M",
+      "views": "100",
       "postedTime": "1 week ago",
       "description": "A beginner-friendly guide to Node.js.",
-      "category":"Web Development"
+      "category":"Web Development",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 5,
       "title": "Statistics - A Full University Course on Data Science Basics",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb5.jpg",
       "channel": "FreeCodeCamp.Org",
-      "views": "2M",
+      "views": "100",
       "postedTime": "1 week ago",
       "description": "Learn the essentials of statistics in this complete course.",
-      "category":"Data Science"
+      "category":"Data Science",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 6,
       "title": "Virat Kohli 94* (50) vs West Indies 1st T20I 2019 Hyderabad (Ball By Ball)",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_virat1.jpg",
       "channel": "Virat Kohli TV",
-      "views": "10M",
+      "views": "100",
       "postedTime": "1 year ago",
       "description": "Virat Kohli once again delivers in a big run chase.The king scored 94 off 50 deliveries !",
-      "category":"Virat"
+      "category":"Virat",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 7,
       "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_dsa.jpg",
       "channel": "FreeCodeCamp.Org",
-      "views": "6.7M",
+      "views": "100",
       "postedTime": "5 years ago",
       "description": "Learn and master the most common data structures in this full course from Google engineer William Fiset.",
-      "category":"Data Structures"
+      "category":"Data Structures",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 8,
       "title": "3 tips on how to study effectively",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_study.jpg",
       "channel": "TED-Ed",
-      "views": "6.1M",
+      "views": "100",
       "postedTime": "1 year ago",
       "description": "Explore how the brain learns and stores information, and find out how to apply this for more effective study techniques.",
-      "category":"Study Skills"
+      "category":"Study Skills",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 9,
       "title": "The Universe Of Anirudh Ravichander | Amazon Music",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_ani.jpg",
       "channel": "Amazon Music IN",
-      "views": "765K",
+      "views": "100",
       "postedTime": "5 months ago",
       "description": "The Universe Of - is a concept that takes you on a mesmerizing journey through the minds of India’s legendary creators",
-      "category":["Anirudh Ravichandher", "Music"]
+      "category":["Anirudh Ravichandher", "Music"],
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 10,
       "title": "Vidya Vox - Be Free (Pallivaalu Bhadravattakam) ft. Vandana Iyer",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_pop.jpg",
       "channel": "Vidya Vox",
-      "views": "444M",
+      "views": "100",
       "postedTime": "8 years ago",
       "description": "Official video for Vidya Vox's 2016 single '''Be Free''' and Malayalam folk song '''Pallivaalu Bhadravattakam'''",
-      "category":["Indian Pop Music", "Music"]
+      "category":["Indian Pop Music", "Music"],
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 11,
       "title": "SAVING Franklin's House from ZOMBIES GTA 5 | Shinchan Zombie Attack | Lovely Gaming",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_game.jpg",
       "channel": "Lovely Gaming",
-      "views": "1.58M",
+      "views": "100",
       "postedTime": "13 days ago",
       "description": "Fnklin's House is UPGRADED for the Zombie Outbreak in GTA 5! - LIKE & Subscribe! 🚀",
-      "category":"Gaming"
+      "category":"Gaming",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 12,
       "title": "How to Think Clearly | The Philosophy of Marcus Aurelius",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_thouhts.jpg",
       "channel": "Freedom In Thought",
-      "views": "1.58M",
+      "views": "100",
       "postedTime": "3 months ago",
       "description": "Keep exploring at https://brilliant.org/freedominthought.",
-      "category":"Thoughts"
+      "category":"Thoughts",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     },
     {
       "id": 13,
       "title": "Hailey Bieber's Date Night Skin Care & Makeup Routine | Beauty Secrets | Vogue",
+      "titleImage": "/images/thumbnail1.jpg",
       "thumbnail": "/images/thumb_skin.jpg",
       "channel": "Vogue",
-      "views": "11.8M",
+      "views": "100",
       "postedTime": "3 years ago",
       "description": "Model Hailey Rhode Bieber reveals her glowy date-night makeup look while reflecting on her beauty philosophy and becoming a beauty brand founder.",
-      "category":"Skin Care"
+      "category":"Skin Care",
+      "likes": 1000,
+      "dislikes": 50,
+      "isSubscribed": false,
+      "Subscribers":"200"
+    
     }
   ]

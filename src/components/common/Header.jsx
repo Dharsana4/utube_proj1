@@ -15,14 +15,13 @@ const Header = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
-
   };
-  const location = useLocation(); 
-  const hideCategories= location.pathname.startsWith("/video/") || (location.pathname !== "/");
+  const location = useLocation();
+  const hideCategories =
+    location.pathname.startsWith("/video/") || location.pathname !== "/";
   return (
     <>
       <header className="header">
-        {/* Left Section: Logo with Superscript Country Code */}
         <div className="header-left">
           <img src="images/side_close.jpg" alt="Menu" className="icon1" />
           <div className="logo-container">
@@ -33,14 +32,14 @@ const Header = () => {
                 className="youtube-logo"
               />
             </Link>
-            <span className="country-code">IN</span> {/* Superscript Style */}
+            <span className="country-code">IN</span>
           </div>
         </div>
-        {/* Center Section: Search Bar */}
+
         <div className="header-center">
           <SearchBar />
         </div>
-        {/* Right Section: Create, Notifications, Profile */}
+
         <div className="header-right">
           <img src="images/create.jpg" alt="Create" className="icon2" />
           <div className="notification">
@@ -59,9 +58,6 @@ const Header = () => {
           />
         </div>
         <ThemeModal isOpen={isModalOpen} onClose={closeModal} />
-        
-        
-        
       </header>
       {!hideCategories && <Categories />}
     </>
